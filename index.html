@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Сайт визитка</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="https://wsxzaq127.github.io/style.css">
+</head>
+<body>
+
+<header class="header">
+	<div class="container container_header">
+		<img class="header__img" src="img/logo.png">
+		<nav class="nav">
+			<ul class="nav__list">
+				
+				<li class="nav__item">Главная</li>
+				<li class="nav__item">О игре</li>
+				<li class="nav__item">Видио</li>
+				<li class="nav__item">Скриншоты</li>
+			</ul>
+		</nav>
+	</div>
+</header>
+<main class="main">
+	<section class="hero-block">
+		<div class="container container_hero-block">
+				<img src="img/fsb_promo_rust02.png" class="hero-block__img">
+			<div class="hero-block__content">
+				<h1 class="hero-block__title">Standoff 2</h1>
+
+			</div>
+		
+		</div>
+	</section>
+ <section class="about">
+ 	<div class="container container_about">
+ 		<h2 class="about__title">О игре</h2>
+ 		<div class="about__content">
+ 			<p class="about__text">Данная игра выражает в себе онлайн-шутер, в котором 2 команды сражаются за победу в нескольких раундах, главное в игре-доверие и командная работа!</p>
+ 		</div>
+ 	</div>
+ </section>
+ <section class="video">
+ 	<div class="container container_video">
+ 		<h2 class="video__title">Видео</h2>
+ 		<iframe class="video__video"  src="https://www.youtube.com/embed/Cay3KKLe4f0?si=9V_fEanbVnhjTFG7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+ 	</div>
+ </section>
+ <section class="galery">
+ <h2 class="galery__title">Скриншоты</h2>
+ <ul class="galery__list">
+ 	<li class="galery__item">
+ 		<a class="lightzoom" href="img/image(1).png">
+ 			<img class="galery__img" src="img/image(1).png">
+ 		</a>
+ 	</li>
+ <li class="galery__item">
+ 		<a class="lightzoom" href="img/image.png">
+ 			<img class="galery__img" src="img/image.png">
+ 		</a>
+ 	</li>
+ </ul>
+ </section>
+</main>
+<footer class="footer">
+	<div class="container container_footer">
+		<div class="footer__content">
+			<h4 class="footer__title">Данил заболедский</h4>
+			<p class="footer__text">&copy; 2024. Все права защищены.</p>
+		</div>
+		<ul class="footer__list">
+			<li class="footer__item">
+				<img class="footer__img" src="img/vk.png">
+			</li>
+			<li class="footer__item">
+				<img class="footer__img" src="img/icon_tg.png">
+			</li>
+		</ul>
+	</div>
+</footer>
+<script type="text/javascript" src="https://wsxzaq127.github.io/lightzoom.js"></script>
+<script type="text/javascript">
+jQuery('.lightzoom').lightzoom({speed: 400, viewTitle: true});
+</script>
+</body>
+</html>
